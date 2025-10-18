@@ -14,7 +14,7 @@ A simple and efficient tool to change the Remote Desktop Protocol (RDP) port on 
 
 ## 🚀 Quick Start
 
-1. Download `CambiarPuertoRDP.bat`
+1. Download `rdpPortChanger.bat`
 2. Double-click the file
 3. Accept the UAC prompt for administrator privileges
 4. Enter your desired port number
