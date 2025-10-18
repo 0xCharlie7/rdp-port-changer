@@ -39,26 +39,26 @@ A simple and efficient tool to change the Remote Desktop Protocol (RDP) port on 
 ## 💡 Usage Example
 ```
 ========================================
-  Cambiar Puerto RDP en Windows
+  Change RDP Port on Windows
 ========================================
 
-Puerto RDP actual: 3389
+Current RDP port: 3389
 
-Introduce el nuevo puerto RDP (ej: 3389, 3390, etc): 3390
+Enter the new RDP port (e.g.: 3389, 3390, etc): 3390
 
-Cambiando puerto RDP a: 3390...
-Configurando regla de firewall para el puerto 3390...
+Changing RDP port to: 3390...
+Configuring firewall rule for port 3390...
 
 ========================================
-  Puerto cambiado a 3390
+  Port changed to 3390
 ========================================
 
-IMPORTANTE: Necesitas reiniciar el equipo
-para que los cambios surtan efecto.
+IMPORTANT: You need to restart the computer
+for the changes to take effect.
 
-Regla de firewall creada automaticamente.
+Firewall rule created automatically.
 
-¿Deseas reiniciar el ordenador ahora? (S/N):
+Do you want to restart the computer now? (Y/N):
 ```
 
 ## ⚠️ Important Notes
@@ -116,7 +116,7 @@ Type: DWORD
 ```
 
 **Firewall Rule Created:**
-- Display Name: `RDP Puerto [port_number]`
+- Display Name: `RDP Port [port_number]`
 - Direction: Inbound
 - Protocol: TCP
 - Action: Allow
